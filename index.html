@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisador</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="scrypt.js"></script>
+
+</head>
+<body>
+    <header class="div-search">
+        
+            
+                <div class="searchBox">
+                    <h2>Pesquise filme</h2>
+                    <input type="text" id="textinput" name="textinput" placeholder="pesquise" >    
+                    <button onclick="search()">Pesquisar</button>
+                </div>
+         
+
+          
+                <div class="criar" >
+                    <h2>Criar filme</h2>
+                    <button onclick="MakeMovie()">clicar</button>
+                </div> 
+            
+    </header>
+
+    <!--clicar criar filme-->
+    <div class="CadastraFilme">
+      
+    <div class="box_reacao" >
+        <h2> Cadastro de filme</h2>
+        
+        <div class="criar_2" onclick="ClosePage('CadastraFilme','criar_2')">
+            <img  src="imgs/close.png" alt="imagem de fechar">
+        </div>
+    
+    </div>
+
+        <div class="coleta" >
+            
+            <div>   <h2>nome:</h2> <input type="text" id="primeiro" placeholder="nome"> </div>
+            <div>   <h2>tempo de duração:</h2> <input type="text" id="segundo" placeholder="duração"> </div>
+            <div>   <h2>nota:</h2> <input type="text" id="terceiro" placeholder="nota"> </div>
+            <div>   <h2>strems:</h2> <input type="text" id="quarto" placeholder="strems"> </div>
+            <button onclick="criar()" style="width:min-content;">enviar</button>
+        
+        </div>
+
+    </div>
+
+    <!--SHOW Movie-->
+    <div class="ShowMovie">
+    <div class="box_reacao">
+        <div>
+            <h1 id="info"></h1>
+                <ul>
+                <li id="first"></li>
+                <li id="second"></li>
+                <li id="third"></li>
+            </ul> 
+        </div>
+        
+        <div class="criar_2" onclick="ClosePage('ShowMovie','criar_2')">
+            <img  src="imgs/close.png" alt="imagem de fechar">
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+* {
+    padding: 0%;
+    margin: 0%;
+    overflow-y: hidden; /*não deixa a tela execeder neste caso não podendo rodar pra baixo*/
+    
+}
+
+.div-search {
+    background-color: #F27405;
+    text-align: center; /* Alinhe o conteúdo ao centro na div-search */
+    padding: 20px; /* Adicione algum preenchimento para espaçamento interno */
+    
+}
+
+.searchBox, .criar {
+    display: inline-block;
+    vertical-align: top; /* Alinhe as divs verticalmente ao topo */
+  
+}
+
+.searchBox {
+    background-color: white;
+    height: 10vh;
+    border-radius: 10px;/*  usado pra definir o raio da imgem ou o qnt de redondo é*/
+    max-width: 450px;
+}
+
+.searchBox button{
+    cursor: pointer;/* definir o tipo de cursos do mouse q aparecera ao passar pelo item*/
+    border-radius: 5px;
+    
+}
+
+.criar {
+    margin-left: 70%; /* Adicione alguma margem à esquerda para separação */
+}
+.criar button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.criar_2{
+    height: 10%;
+    width: 10%;
+    cursor: pointer;
+   
+}
+
+
+
+.CadastraFilme{
+  
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin-left: 30%;
+    text-align: justify;
+    display: none;
+    color: white;
+    border-radius:10px;
+    background-color: #014040;
+
+}
+
+
+.ShowMovie{
+    
+    background-color: #014040;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin-left: 30%; /*distancia do item da esquerda no caso equerda*/    
+    text-align: justify;
+    display: none;
+    color: white;
+    border-radius:10px;
+    box-shadow: 0px 3px 10px #014040; /*sombra em volta do item */
+
+}
+.box_reacao{
+   display: flex;
+   justify-content: space-between;
+    
+}
+.coleta{
+    height:400px ;
+    width: 500px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-evenly;
+
+}
+
